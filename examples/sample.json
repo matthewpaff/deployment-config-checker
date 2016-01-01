@@ -1,0 +1,14 @@
+{
+  "service": "sample-5",
+  "replicas": 2,
+  "resources": {
+    "cpu_millis": 100,
+    "memory_mb": 448
+  },
+  "health": {
+    "path": "/ready",
+    "interval_seconds": 15,
+    "timeout_seconds": 2,
+    "failure_threshold": 3
+  }
+}
