@@ -1,0 +1,1 @@
+{"description": "reject deployments without any replicas", "expected_error": true, "id": "deployment-0000", "input": {"health": {"failure_threshold": 3, "interval_seconds": 10, "path": "/ready", "timeout_seconds": 2}, "replicas": 0, "resources": {"cpu_millis": 100, "memory_mb": 128}, "service": "sample-0"}}
